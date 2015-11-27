@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32">
+  <image source="grass.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="stone" tilewidth="32" tileheight="32">
+  <image source="stone.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="housefloor" tilewidth="32" tileheight="32">
+  <image source="housefloor.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="end" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2US47DMAxD0/T+d+4sB0E9ET+S5XEWBIrAcfVEhudxHOdmev/oddH55dnq2pX3t77xzs6fqivHiPFuV7P9inr68MYzHDnb4ZvI9Hd0Frmvg7+78nbItvPdan9Rr53vPrx5GUYzmfUus7vKvkLveXjHvGzvRbKtKHIPyuvYuauj0BkYf3fhdWQY/e3KduQ7yvCX3Ullrly8ymwzedksqbNVf0fITO45lSxV8rpyuAuvS6vkWdmd4rXCq2SvMy/LFXnuzHcVL/ob2YXb60iGlX6Iejibl71T9S072x15K/1V9ub2Jpu32gd1brWfV+J17mmGEEaVF/Evw1cki9HOWZ03cj5yVskSm1cmz114Uf9cGUb2H+FV8ubiRfOv+Kt64ejhLN6qOaM7ZDpX7WdmTsc9kfuQ/8rkRTWLV51NVbRXWbn8XU0sr0uzeJnZRvNGOZgcVu05i7drnu96C/GiEy/iuzp7Zl7vvGDylsWL/Bdz/q93MvqkAy/SXS4h+XE9n9khXXjZbKqdkqkR73/Xrrw76QPJjfNbQDgAAA==
+  </data>
+ </layer>
+</map>
